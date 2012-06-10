@@ -5,7 +5,7 @@
 #  Version: 1.0                                       #
 #                                                     #
 #  Features:                                          #
-#   Usual man page functionalities                    #
+#   Usual man page functionalities (up to 4)          #
 #   Displays Man Pages in PDF format                  #
 #  -------------------------------------------------  #
 #                                                     #
