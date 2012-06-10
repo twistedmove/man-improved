@@ -22,8 +22,8 @@ Read man pages in PDF, or use as usual
 
   Examples:
 
-     $ man-improved -pdf sed - will display sed man page in pdf
-     $ man-improved -pdf bash - will display bash man page in pdf
+     $ man-improved -pdf sed        (will display sed man page in pdf)
+     $ man-improved -pdf bash       (will display bash man page in pdf)
 
      
   Optional Setup:
