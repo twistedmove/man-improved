@@ -6,13 +6,15 @@ Read man pages in PDF, or use as usual
 
   Setup:
 
-     copy the "man-improved" folder to your usual script folder then run the following in the
+     1/ $ git clone https://github.com/jule64/man-improved.git
+     
+     2/ Copy the "man-improved" folder to your usual script folder then run the following in the
      command prompt:
 
-     $ cd ~/[path to your script folder]/man-improved
-     $ chmod u+x man-improved.sh
-     $ ln -s ~/[path to your script folder]/man-improved/man-improved.sh ~/bin/man-improved
-     $ echo "PATH=~/bin:\${PATH}" >> ~/.profile
+         $ cd ~/[path to your script folder]/man-improved
+         $ chmod u+x man-improved.sh
+         $ ln -s ~/[path to your script folder]/man-improved/man-improved.sh ~/bin/man-improved
+         $ echo "PATH=~/bin:\${PATH}" >> ~/.profile
      
 
   Usage (read optional setup below for easier usage):
@@ -36,7 +38,7 @@ Read man pages in PDF, or use as usual
   Usage now becomes:
   
      $ man [-pdf][usual man args (up to four args)] name
-     
+  Note that this alias effectively overrides the original man function
      
   Examples:
 
